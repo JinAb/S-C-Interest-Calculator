@@ -8,7 +8,7 @@ Interest = int(input())
 
 pr = int(input("Enter The Principal\n"))
 Ra = int(input("Enter The Rate ( In Percentage!! %  Don't use sign)\n"))
-ti = float(input("Enter The Time ( In Year )\n"))
+ti = int(input("Enter The Time ( In Year )\n"))
 
 if Interest == 1:
     sip = (pr*Ra*ti)/100
